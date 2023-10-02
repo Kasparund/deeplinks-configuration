@@ -1,0 +1,23 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "2UR8VT57D6.ch.kasparund.acrevis.debug",
+        "paths": [ "/debug/acrevis/*"]
+      },
+      {
+        "appID": "2UR8VT57D6.ch.kasparund.acrevis",
+        "paths": [ "/prod/acrevis/*"]
+      }
+      {
+        "appID": "2UR8VT57D6.ch.kasparund.mobileapp.debug",
+        "paths": [ "/debug/kasparund/*"]
+      },
+      {
+        "appID": "2UR8VT57D6.ch.kasparund.mobileapp",
+        "paths": [ "/prod/kasparund/*"]
+      }
+    ]
+  }
+}
