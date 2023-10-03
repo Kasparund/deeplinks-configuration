@@ -1,44 +1,52 @@
 [
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "ch.kasparund.acrevis",
-      "sha256_cert_fingerprints":
-      ["0A:81:0E:E8:17:6E:18:33:38:4B:64:1A:48:6D:63:4F:2B:4E:E5:87:74:04:2C:D7:98:6A:0F:20:14:5E:BA:04"]
-    }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "ch.kasparund.acrevisdebug",
-      "sha256_cert_fingerprints":
-      [
-        "27:6D:98:6F:1C:22:4C:DE:36:A1:1A:FD:90:C6:9E:68:FD:96:68:95:56:21:A6:A2:F1:B3:67:36:D5:75:18:16",
-        "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE"
-      ]
-    }
-  },
     {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "ch.kasparund.mobileapp",
-      "sha256_cert_fingerprints":
-      ["1C:D3:63:6F:28:DB:D4:2A:1C:1E:DF:F8:88:45:86:57:59:F8:E9:57:E9:DE:B9:E0:E6:9D:74:9F:C9:65:C9:50"]
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "ch.kasparund.acrevis",
+            "sha256_cert_fingerprints": [
+                "0A:81:0E:E8:17:6E:18:33:38:4B:64:1A:48:6D:63:4F:2B:4E:E5:87:74:04:2C:D7:98:6A:0F:20:14:5E:BA:04"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "ch.kasparund.acrevis.debug",
+            "sha256_cert_fingerprints": [
+                "27:6D:98:6F:1C:22:4C:DE:36:A1:1A:FD:90:C6:9E:68:FD:96:68:95:56:21:A6:A2:F1:B3:67:36:D5:75:18:16",
+                "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "ch.kasparund.mobileapp",
+            "sha256_cert_fingerprints": [
+                "1C:D3:63:6F:28:DB:D4:2A:1C:1E:DF:F8:88:45:86:57:59:F8:E9:57:E9:DE:B9:E0:E6:9D:74:9F:C9:65:C9:50"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "ch.kasparund.mobileapp.debug",
+            "sha256_cert_fingerprints": [
+                "27:6D:98:6F:1C:22:4C:DE:36:A1:1A:FD:90:C6:9E:68:FD:96:68:95:56:21:A6:A2:F1:B3:67:36:D5:75:18:16",
+                "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE"
+            ]
+        }
     }
-  },
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "ch.kasparund.mobileappdebug",
-      "sha256_cert_fingerprints":
-      [
-        "27:6D:98:6F:1C:22:4C:DE:36:A1:1A:FD:90:C6:9E:68:FD:96:68:95:56:21:A6:A2:F1:B3:67:36:D5:75:18:16",
-        "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE"
-      ]
-    }
-  }
 ]
