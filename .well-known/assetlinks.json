@@ -20,7 +20,8 @@
             "package_name": "ch.kasparund.acrevis.debug",
             "sha256_cert_fingerprints": [
                 "27:6D:98:6F:1C:22:4C:DE:36:A1:1A:FD:90:C6:9E:68:FD:96:68:95:56:21:A6:A2:F1:B3:67:36:D5:75:18:16",
-                "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE"
+                "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE",
+                "D9:69:AB:32:17:E0:4C:C8:FE:E5:5D:9A:19:C4:FF:47:AF:39:8C:A3:DB:82:6F:0A:26:D7:30:8C:84:B7:9C:B6"
             ]
         }
     },
@@ -45,7 +46,8 @@
             "package_name": "ch.kasparund.mobileapp.debug",
             "sha256_cert_fingerprints": [
                 "27:6D:98:6F:1C:22:4C:DE:36:A1:1A:FD:90:C6:9E:68:FD:96:68:95:56:21:A6:A2:F1:B3:67:36:D5:75:18:16",
-                "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE"
+                "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE",
+                "D9:69:AB:32:17:E0:4C:C8:FE:E5:5D:9A:19:C4:FF:47:AF:39:8C:A3:DB:82:6F:0A:26:D7:30:8C:84:B7:9C:B6"
             ]
         }
     }
