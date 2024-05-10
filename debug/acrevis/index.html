@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaspar&acrevis</title>
+    <style>
+        #error-message {
+            color: red;
+            margin: 20px;
+            padding: 10px;
+            border: 1px solid red;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+    <script
+    src="https://js.sentry-cdn.com/f4a0a054d9ff627e11283d13d7c49f96.min.js"
+    crossorigin="anonymous"
+  ></script>
+  
+</head>
+<body>
+    <div id="error-message">
+        <p><strong>Unerwarteter Fehler während der Verknüpfung deines Kontos:</strong> Es scheint etwas schiefgelaufen zu sein.</p>
+        <button onclick="sendEmail()">Email an Support</button>
+    </div>
+
+    <script>
+        function generateRandomCode(length) {
+            var result = '';
+            var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+            var charactersLength = characters.length;
+            for ( var i = 0; i < length; i++ ) {
+                result += characters.charAt(Math.floor(Math.random() * charactersLength));
+            }
+            return result;
+        }
+
+        const sessionCode = generateRandomCode(10);
+
+        function getURLParameter(name) {
+            const params = new URLSearchParams(window.location.search);
+            return params.get(name); 
+        }
+
+        const status = getURLParameter('status');
+
+        window.sentryOnLoad = function () {
+            Sentry.init({
+            dsn: 'https://f4a0a054d9ff627e11283d13d7c49f96@o1010908.ingest.us.sentry.io/4505879302897664',
+            environment: 'dev',
+            });
+            Sentry.forceLoad();
+            Sentry.setTag("session_code", sessionCode);
+            Sentry.setContext("Kaspar& Debug", {
+                sessionCode: sessionCode,
+                status: status
+            });
+        };
+
+
+        class DeepLinkRegistrationError extends Error {
+            constructor(message) {
+                super(message); 
+                this.name = "DeepLinkRegistrationError"; 
+            }
+        }
+
+
+        try {
+            throw new DeepLinkRegistrationError(`Deep link registration error occurred. Client called the consent flow redirect url and landed on the backup site instead of getting redirected to the app. Status in the callback: ${status}`);
+        } catch (error) {
+            Sentry.captureException(error);
+        }
+
+        function sendEmail() {
+            window.location.href = `mailto:help@kasparund.ch?subject=Fehler%20bei%20der%20Anmeldung%20(Abschluss%20Verkn%C3%BCpfung%20bestehendes%20Konto,%20${sessionCode})&body=Hallo%20Kaspar%20und%20Acrevis%2C%0A%0AIch%20habe%20einen%20Fehler%20bei%20der%20Anmeldung%20gemeldet%3`;
+        }
+    </script>
+</body>
+</html>
