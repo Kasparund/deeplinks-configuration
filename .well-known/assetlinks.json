@@ -33,6 +33,90 @@
         ],
         "target": {
             "namespace": "android_app",
+            "package_name": "ch.kasparund.arb",
+            "sha256_cert_fingerprints": [
+                "0A:81:0E:E8:17:6E:18:33:38:4B:64:1A:48:6D:63:4F:2B:4E:E5:87:74:04:2C:D7:98:6A:0F:20:14:5E:BA:04"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "ch.kasparund.arb.debug",
+            "sha256_cert_fingerprints": [
+                "27:6D:98:6F:1C:22:4C:DE:36:A1:1A:FD:90:C6:9E:68:FD:96:68:95:56:21:A6:A2:F1:B3:67:36:D5:75:18:16",
+                "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE",
+                "D9:69:AB:32:17:E0:4C:C8:FE:E5:5D:9A:19:C4:FF:47:AF:39:8C:A3:DB:82:6F:0A:26:D7:30:8C:84:B7:9C:B6",
+                "F5:56:1B:43:DF:A4:85:F8:9C:1A:60:5C:09:A6:E3:22:01:55:4C:17:39:AB:9B:B5:2E:11:6F:EA:0B:7C:CA:AF",
+                "56:FF:64:DC:B3:E3:91:0F:E8:7B:39:35:DC:DE:D5:EC:19:AE:AF:AD:E5:EE:7D:21:A8:AA:4A:7C:04:E2:00:47"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "ch.kasparund.bbo",
+            "sha256_cert_fingerprints": [
+                "0A:81:0E:E8:17:6E:18:33:38:4B:64:1A:48:6D:63:4F:2B:4E:E5:87:74:04:2C:D7:98:6A:0F:20:14:5E:BA:04"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "ch.kasparund.bbo.debug",
+            "sha256_cert_fingerprints": [
+                "27:6D:98:6F:1C:22:4C:DE:36:A1:1A:FD:90:C6:9E:68:FD:96:68:95:56:21:A6:A2:F1:B3:67:36:D5:75:18:16",
+                "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE",
+                "D9:69:AB:32:17:E0:4C:C8:FE:E5:5D:9A:19:C4:FF:47:AF:39:8C:A3:DB:82:6F:0A:26:D7:30:8C:84:B7:9C:B6",
+                "F5:56:1B:43:DF:A4:85:F8:9C:1A:60:5C:09:A6:E3:22:01:55:4C:17:39:AB:9B:B5:2E:11:6F:EA:0B:7C:CA:AF",
+                "56:FF:64:DC:B3:E3:91:0F:E8:7B:39:35:DC:DE:D5:EC:19:AE:AF:AD:E5:EE:7D:21:A8:AA:4A:7C:04:E2:00:47"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "ch.kasparund.bkt",
+            "sha256_cert_fingerprints": [
+                "0A:81:0E:E8:17:6E:18:33:38:4B:64:1A:48:6D:63:4F:2B:4E:E5:87:74:04:2C:D7:98:6A:0F:20:14:5E:BA:04"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "ch.kasparund.bkt.debug",
+            "sha256_cert_fingerprints": [
+                "27:6D:98:6F:1C:22:4C:DE:36:A1:1A:FD:90:C6:9E:68:FD:96:68:95:56:21:A6:A2:F1:B3:67:36:D5:75:18:16",
+                "E6:0B:E1:6D:DE:A5:E1:71:38:74:B4:2C:D2:49:FF:F2:03:B6:9A:23:5F:4C:A0:A5:2F:A9:DE:FD:3A:5E:7E:DE",
+                "D9:69:AB:32:17:E0:4C:C8:FE:E5:5D:9A:19:C4:FF:47:AF:39:8C:A3:DB:82:6F:0A:26:D7:30:8C:84:B7:9C:B6",
+                "F5:56:1B:43:DF:A4:85:F8:9C:1A:60:5C:09:A6:E3:22:01:55:4C:17:39:AB:9B:B5:2E:11:6F:EA:0B:7C:CA:AF",
+                "56:FF:64:DC:B3:E3:91:0F:E8:7B:39:35:DC:DE:D5:EC:19:AE:AF:AD:E5:EE:7D:21:A8:AA:4A:7C:04:E2:00:47"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
             "package_name": "ch.kasparund.mobileapp",
             "sha256_cert_fingerprints": [
                 "1C:D3:63:6F:28:DB:D4:2A:1C:1E:DF:F8:88:45:86:57:59:F8:E9:57:E9:DE:B9:E0:E6:9D:74:9F:C9:65:C9:50"

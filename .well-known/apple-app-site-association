@@ -15,6 +15,42 @@
                 ]
             },
             {
+                "appID": "2UR8VT57D6.ch.kasparund.arb.debug",
+                "paths": [
+                    "/debug/arb/*"
+                ]
+            },
+            {
+                "appID": "2UR8VT57D6.ch.kasparund.arb",
+                "paths": [
+                    "/release/arb/*"
+                ]
+            },
+            {
+                "appID": "2UR8VT57D6.ch.kasparund.bbo.debug",
+                "paths": [
+                    "/debug/bbo/*"
+                ]
+            },
+            {
+                "appID": "2UR8VT57D6.ch.kasparund.bbo",
+                "paths": [
+                    "/release/bbo/*"
+                ]
+            },
+            {
+                "appID": "2UR8VT57D6.ch.kasparund.bkt.debug",
+                "paths": [
+                    "/debug/bkt/*"
+                ]
+            },
+            {
+                "appID": "2UR8VT57D6.ch.kasparund.bkt",
+                "paths": [
+                    "/release/bkt/*"
+                ]
+            },
+            {
                 "appID": "2UR8VT57D6.ch.kasparund.mobileapp.debug",
                 "paths": [
                     "/debug/kasparund/*"
