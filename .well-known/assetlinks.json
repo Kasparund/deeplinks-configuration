@@ -37,7 +37,7 @@
             "namespace": "android_app",
             "package_name": "ch.kasparund.arb",
             "sha256_cert_fingerprints": [
-                "0A:81:0E:E8:17:6E:18:33:38:4B:64:1A:48:6D:63:4F:2B:4E:E5:87:74:04:2C:D7:98:6A:0F:20:14:5E:BA:04"
+                "C8:7E:FB:6A:37:5A:32:9F:3A:41:76:D9:71:35:F5:BF:52:80:D4:CD:61:EF:58:58:C2:A3:12:E9:2C:CA:E8:CD"
             ]
         }
     },
@@ -67,8 +67,7 @@
             "namespace": "android_app",
             "package_name": "ch.kasparund.bbo",
             "sha256_cert_fingerprints": [
-                "0A:81:0E:E8:17:6E:18:33:38:4B:64:1A:48:6D:63:4F:2B:4E:E5:87:74:04:2C:D7:98:6A:0F:20:14:5E:BA:04",
-                "56:FF:64:DC:B3:E3:91:0F:E8:7B:39:35:DC:DE:D5:EC:19:AE:AF:AD:E5:EE:7D:21:A8:AA:4A:7C:04:E2:00:47"
+                "C6:74:E5:63:82:7C:62:7B:C7:E5:D0:EA:57:62:46:B8:8A:A7:2C:0A:95:C0:34:A7:CB:D0:D7:9F:BB:15:EB:F0"
             ]
         }
     },
@@ -98,7 +97,7 @@
             "namespace": "android_app",
             "package_name": "ch.kasparund.bkt",
             "sha256_cert_fingerprints": [
-                "0A:81:0E:E8:17:6E:18:33:38:4B:64:1A:48:6D:63:4F:2B:4E:E5:87:74:04:2C:D7:98:6A:0F:20:14:5E:BA:04"
+                "7E:18:09:17:DF:87:7C:BC:AC:D1:E0:B4:FA:E7:79:20:11:73:7B:76:61:28:86:0E:A9:2D:71:9D:A0:BA:10:C2"
             ]
         }
     },
