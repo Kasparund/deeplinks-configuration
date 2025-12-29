@@ -5,13 +5,15 @@
             {
                 "appID": "2UR8VT57D6.ch.kasparund.acrevis.debug",
                 "paths": [
-                    "/debug/acrevis/*"
+                    "/debug/acrevis/*",
+                    "/debug/acr/*"
                 ]
             },
             {
                 "appID": "2UR8VT57D6.ch.kasparund.acrevis",
                 "paths": [
-                    "/release/acrevis/*"
+                    "/release/acrevis/*",
+                    "/release/acr/*"
                 ]
             },
             {
